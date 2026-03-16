@@ -32,7 +32,7 @@ const Info = () => {
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.15 },
     );
 
     cards.forEach((card) => observer.observe(card));
@@ -41,48 +41,49 @@ const Info = () => {
 
   return (
     <section className="info-section">
-
-     
       <div className="hours-col col" ref={hoursRef}>
         <h2 className="heading">
-          <span className="heading-icon"><ClockIcon /></span>
+          <span className="heading-icon">
+            <ClockIcon />
+          </span>
           Opening Hours
         </h2>
         <div className="card-divider" />
         <div className="info-row">
           <p className="res-info">
             <strong>Mon – Fri</strong>
-            8:00 AM – 11:30 PM
+            8:30 AM – 10:30 PM
           </p>
           <p className="res-info">
             <strong>Sat – Sun</strong>
-            8:00 AM – 11:30 PM
+            8:30 AM – 10:30 PM
           </p>
         </div>
       </div>
 
-     
       <div className="location-col col" ref={locationRef}>
         <h2 className="heading">
-          <span className="heading-icon"><PinIcon /></span>
+          <span className="heading-icon">
+            <PinIcon />
+          </span>
           Find Us
         </h2>
         <div className="card-divider" />
         <div className="info-row">
           <p className="res-info">
-           Rampur Rd, Dewalchaur Bandobasti, Haldwani, Uttarakhand 263139
+            Ram Jhula, near Parmarth Niketan, Swarg Ashram, Rishikesh,
+            Uttarakhand 249304
           </p>
           <p className="res-info">
             <strong>Phone</strong>
-            089794 93383
+            97608 31982
           </p>
           <p className="res-info">
             <strong>Email</strong>
-           internationalklay@gmail.com
+            kaafeindia@gmail.com
           </p>
         </div>
       </div>
-
     </section>
   );
 };

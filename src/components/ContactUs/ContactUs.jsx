@@ -12,7 +12,7 @@ const ContactUs = () => {
 
       {/* ── LEFT: Brand + Info ── */}
       <div className="contact-left">
-        <span className="contact-brand-name">The Klay</span>
+        <span className="contact-brand-name">Kaafe — Best & Widest</span>
 
         <h1 className="contact-headline">
           Let's<br />
@@ -33,7 +33,7 @@ const ContactUs = () => {
             </div>
             <div className="info-text">
               <span className="info-label">Address</span>
-              <span className="info-value">Rampur Rd, Dewalchaur Bandobasti,<br /> Haldwani, Uttarakhand 263139</span>
+              <span className="info-value">Ram Jhula, near Parmarth Niketan,<br /> Swarg Ashram, Rishikesh, Uttarakhand 249304</span>
             </div>
           </div>
 
@@ -43,7 +43,7 @@ const ContactUs = () => {
             </div>
             <div className="info-text">
               <span className="info-label">Phone</span>
-              <span className="info-value">  089794 93383</span>
+              <span className="info-value">097608 31982</span>
             </div>
           </div>
 
@@ -53,7 +53,7 @@ const ContactUs = () => {
             </div>
             <div className="info-text">
               <span className="info-label">Email</span>
-              <span className="info-value">internationalklay@gmail.com</span>
+              <span className="info-value">kaafeindia@gmail.com</span>
             </div>
           </div>
         </div>
@@ -63,11 +63,11 @@ const ContactUs = () => {
           <span className="hours-label">Opening Hours</span>
           <div className="hours-row">
             <span className="hours-day">Monday – Friday</span>
-            <span className="hours-time">8:00 AM – 11:30 PM</span>
+            <span className="hours-time">8:30 AM – 10:30 PM</span>
           </div>
           <div className="hours-row">
             <span className="hours-day">Saturday – Sunday</span>
-            <span className="hours-time">8:00 AM – 11:30 PM</span>
+            <span className="hours-time">8:30 AM – 10:30 PM</span>
           </div>
         </div>
       </div>
@@ -157,3 +157,4 @@ const ContactUs = () => {
 };
 
 export default ContactUs;
+
