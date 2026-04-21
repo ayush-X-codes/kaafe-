@@ -63,7 +63,7 @@ const MenuCard = () => {
 
   return (
     <div className="menu-wrapper">
-      <p className="menu-page-label">Kaafe Restaurant</p>
+      <p className="menu-page-label">Wild Thyme</p>
       <h1 className="title">Our Menu</h1>
       <div className="title-rule" />
 

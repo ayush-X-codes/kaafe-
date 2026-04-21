@@ -35,9 +35,9 @@ const Navbar = () => {
 
   return (
     <nav className={`wrapper${scrolled ? ' scrolled' : ''}`}>
-      <div className='resturent-name'>Kaafe</div>
+      <div className='resturent-name'>Wild Thyme</div>
 
-     
+
       <div
         className={`hamburger-bars ${isOpen ? 'active' : ''}`}
         onClick={toggleMenu}
@@ -52,7 +52,7 @@ const Navbar = () => {
         <span />
       </div>
 
-     
+
       <ul className={`nav-links ${isOpen ? 'active' : ''}`} role="list">
         <li>
           <Link

@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='hero-content'>
               <p className='hero-label'>Modern Café & Comfort Food</p>
 
-                <h1 id='res-name'>Kaafe</h1>
+                <h1 id='res-name'>Wild Thyme</h1>
 
                 <div className='hero-divider' />
 

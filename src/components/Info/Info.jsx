@@ -52,11 +52,11 @@ const Info = () => {
         <div className="info-row">
           <p className="res-info">
             <strong>Mon – Fri</strong>
-            8:30 AM – 10:30 PM
+            11:30 AM – 11:30 PM
           </p>
           <p className="res-info">
             <strong>Sat – Sun</strong>
-            8:30 AM – 10:30 PM
+            11:30 AM – 11:30 PM
           </p>
         </div>
       </div>
@@ -71,16 +71,11 @@ const Info = () => {
         <div className="card-divider" />
         <div className="info-row">
           <p className="res-info">
-            Ram Jhula, near Parmarth Niketan, Swarg Ashram, Rishikesh,
-            Uttarakhand 249304
+            Sco 7, Back Side, Sector 7-C, Sector 7, Chandigarh, 160019
           </p>
           <p className="res-info">
             <strong>Phone</strong>
-            97608 31982
-          </p>
-          <p className="res-info">
-            <strong>Email</strong>
-            kaafeindia@gmail.com
+            70873 00591
           </p>
         </div>
       </div>

@@ -28,7 +28,7 @@ const Footer = () => {
     <footer className="footer-wrapper" ref={footerRef}>
       <div className="footer-content">
         <section>
-          <p className="fot-heading">Kaafe</p>
+          <p className="fot-heading">Wild Thyme</p>
           <div className="brand-rule" />
           <p className="footer-tagline" style={{ marginTop: "14px" }}>
             Modern Café & Comfort Food
@@ -53,23 +53,18 @@ const Footer = () => {
           <div className="contact-info-box">
             <MapPin size={14} className="contact-icon" />
             <p className="contact-info">
-              Ram Jhula, near Parmarth Niketan, Swarg Ashram, Rishikesh,
-              Uttarakhand 249304
+              Sco 7, Back Side, Sector 7-C, Sector 7, Chandigarh, 160019
             </p>
           </div>
           <div className="contact-info-box">
             <Phone size={14} className="contact-icon" />
-            <p className="contact-info"> 97608 31982</p>
-          </div>
-          <div className="contact-info-box">
-            <Mail size={14} className="contact-icon" />
-            <p className="contact-info"> kaafeindia@gmail.com</p>
+            <p className="contact-info"> 70873 00591</p>
           </div>
         </section>
       </div>
 
       <div className="copyright-wrapper">
-        <p className="copyright">© 2026 Kaafe. All rights reserved.</p>
+        <p className="copyright">© 2026 Wild Thyme. All rights reserved.</p>
       </div>
     </footer>
   );
